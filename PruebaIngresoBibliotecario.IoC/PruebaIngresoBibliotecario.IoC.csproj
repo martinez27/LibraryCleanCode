@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.6.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PruebaIngresoBibliotecario.Presenters\PruebaIngresoBibliotecario.Presenters.csproj" />
+    <ProjectReference Include="..\PruebaIngresoBibliotecario.Repositories.InMemory\PruebaIngresoBibliotecario.Repositories.InMemory.csproj" />
+    <ProjectReference Include="..\PruebaIngresoBibliotecario.UseCases\PruebaIngresoBibliotecario.UseCases.csproj" />
+  </ItemGroup>
+  
+  
+</Project>
